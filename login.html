@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Parallax Template - Materialize</title>
+
+    <!-- CSS  -->
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Raleway'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <style type="text/css">
+        body {
+            background-color: rgb(79, 195, 224);
+        }
+    </style>
+</head>
+
+<body>
+
+    <br><br>
+    <div class="container  " style="max-width: 600px">
+        <div class=" card z-depth-3 ">
+            <div class="card-content">
+                <h4 class="center-align">PAARFIT</h4>
+            </div>
+            <div class="card-tabs ">
+                <ul class="tabs tabs-fixed-width">
+                    <li class="tab"><a href="#Anmelden">Anmelden</a></li>
+                    <li class="tab"><a class="active" href="#Registrieren">Registrieren</a></li>
+
+                </ul>
+            </div>
+            <div class="card-content  ">
+                <div id="Anmelden">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="emailAnmelden" type="email" class="validate">
+                            <label for="emailAnmelden">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="passwordAnmelden" type="password" class="validate">
+                            <label for="passwordAnmelden">Password</label>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="submit-wrap">
+                        <input type="submit" value="Anmelden" class="submit">
+                        <br>
+                        <a href="#" class="extra-link">Passwort vergessen?</a>
+                        <a href="/" class="extra-link">Zurück</a>
+                    </div>
+
+
+                </div>
+
+                <div id="Registrieren">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="emailRegistrieren" type="email" class="validate">
+                            <label for="emailRegistrieren">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="passwordRegistrieren" type="password" class="validate">
+                            <label for="passwordRegistrieren">Password</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="password2" type="password" class="validate">
+                            <label for="password2">Password</label>
+                        </div>
+                    </div>
+                    <div class="submit-wrap">
+                        <input type="submit" value="Registrieren" class="submit">
+                        <br>
+                        <a href="#" class="extra-link">Passwort vergessen?</a>
+                        <a href="/" class="extra-link">Zurück</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/newInit.js"></script>
+
+</body>
+
+</html>

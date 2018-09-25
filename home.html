@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Parallax Template - Materialize</title>
+
+    <!-- CSS  -->
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Raleway'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link rel="stylesheet" href="css/home.css">
+    <style type="text/css">
+        body {
+            background-color: rgb(79, 195, 224);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="white" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="#" class="brand-logo">PaarFit</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="login.html">Anmelden</a></li>
+            </ul>
+
+            <ul id="nav-mobile" class="sidenav">
+                <li><a href="login.html">Anmelden</a></li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+
+    <div class=" container mt-5 ">
+        <center>
+            <H1 id="week_nr" class="white-text">Woche 0</H1>
+            <H4 id="wochendauer" class="white-text">..</H4>
+
+        </center>
+        <ul class="pl-5 progress-tracker progress-tracker--vertical " id="time_line">
+            <li class="progress-step is-complete">
+                <span id="train1" class="progress-marker" style="color: green"></span>
+                <span class="progress-text">
+                    <h5 class="progress-title"><a id="trainingbutton1" class="btn  cyan lighten-5 pulse black-text">Trainingseinheit
+                            1 starten</a></h5>
+                    <p id="sprechblase1" class="progress-status sprechblase1" hidden>...</p>
+
+                </span>
+            </li>
+            <li class="progress-step ">
+                <span class="progress-marker" style="color: grey">
+
+                </span>
+                <span class="progress-text">
+                    <h5 class="progress-title">1 Tag Pause</h5>
+
+                </span>
+            </li>
+            <li class="progress-step is-active">
+                <span id="train2" class="progress-marker" style="color: green"></span>
+                <span class="progress-text">
+                    <h5 class="progress-title"><a id="trainingbutton2" class="btn btn-light disabled" href="/training">Trainingseinheit
+                            2</a></h5>
+                    <p id="sprechblase2" class="progress-status sprechblase1" hidden>...</p>
+
+                </span>
+            </li>
+            <li class="progress-step ">
+                <span class="progress-marker" style="color: grey">
+
+                </span>
+                <span class="progress-text">
+                    <h5 class="progress-title">1 Tag Pause</h5>
+                </span>
+            </li>
+            <li class="progress-step ">
+                <span id="train3" class="progress-marker" style="color: green"></span>
+                <span class="progress-text">
+                    <h5 class="progress-title"><a id="trainingbutton3" class="btn btn-light disabled" href="/training">Bonus
+                            Trainingseinheit</a></h5>
+                    <p id="sprechblase3" class="progress-status sprechblase1" hidden>...</p>
+                </span>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large pulse red">
+            <i class="material-icons">
+                message
+            </i>
+        </a>
+        <ul>
+            <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+            <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+            <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+            <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+        </ul>
+    </div>
+
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/newInit.js"></script>
+
+</body>
+
+</html>

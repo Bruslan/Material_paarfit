@@ -1,0 +1,13 @@
+.rezept_card {
+  min-width: 300px !important;
+}
+
+.card {
+  transition: right 0.2s linear, bottom 0.2s linear, top 0.2s linear,
+    left 0.2s linear, line-height 0.2s linear, z-index 0.2s linear;
+}
+.expanded {
+  z-index: 9999;
+}
+
+/* von hier aus */

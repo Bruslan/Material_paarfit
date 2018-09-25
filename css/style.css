@@ -1,0 +1,109 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+html {
+  font-family: "Raleway", sans-serif;
+
+  background-size: cover;
+  min-height: 100%;
+}
+
+.sidenav-overlay {
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+img.responsive-img,
+video.responsive-video {
+  height: 200px !important;
+}
+
+h1 {
+  font-size: 1.2em;
+  font-weight: 700;
+  margin-bottom: 1.5em;
+  text-align: center;
+  text-indent: 6px;
+  letter-spacing: 6px;
+  line-height: 1.4em;
+  text-transform: uppercase;
+}
+
+input.submit {
+  font-size: 0.8em;
+  display: block;
+  width: 100%;
+  height: 40px;
+  background: transparent;
+  cursor: pointer;
+  vertical-align: middle;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 1px solid #1e282c;
+}
+input.submit:hover {
+  background-color: #1e282c;
+  color: #ffffff;
+  transition: 0.2s ease;
+}
+
+.content label,
+.container .content input,
+.container .content .extra-link {
+  -moz-animation: slideIn 0.4s ease-in-out;
+  -webkit-animation: slideIn 0.4s ease-in-out;
+  animation: slideIn 0.4s ease-in-out;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, 0.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
